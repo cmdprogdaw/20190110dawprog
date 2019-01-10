@@ -31,15 +31,17 @@ public class Ejercicio3 {
 	 *   **********
 	 *       
 	 */  
-	
-	public static ...
 
-	
+	public static String [] escalera(String [] vector) {
+		String [] escalera = new String [2];
+		return vector;
+	}
+
 	public static void mostrarEscalera(String [] escalera) {
 		for (int i=0; i<escalera.length; i++)
 			System.out.println(escalera[i]);
 	}
-	
+
 	public static void main(String[] args) {
 		System.out.println("Escalera de 7 peldaños con orientación izquierda: ");
 		System.out.println();
